@@ -1,0 +1,31 @@
+class Method
+{
+String name;
+int id;
+String branch;
+void reading()
+{
+System.out.println("reading");
+}
+System.out.println("writing");
+}
+void writing()
+{
+System.out.println("writing");
+}
+}
+class Main
+{
+public static void main(String args[])
+{
+Method st1=new Method();
+Method st1.name="Pavani";
+Method st1.id=514;
+Method st1.branch="CSE";
+st1.reading();
+st1.writing();
+System.out.println(st1.name+" "+st2.id+" "+st1.branch+" ");
+}
+}
+
+
